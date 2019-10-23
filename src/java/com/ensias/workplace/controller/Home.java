@@ -18,10 +18,12 @@ public class Home extends HttpServlet {
 
         // Check if Session is open
         if (session != null) {
-            if(session.getAttribute("connected") != null && (Boolean) session.getAttribute("connected")) {
-                request.getRequestDispatcher("home.jsp").forward(request, response);
-            } else {
+            if(session.getAttribute("connected") == null && (Boolean) !session.getAttribute("connected")) {
+                // Reload Home Page
                 request.getRequestDispatcher("index.jsp").forward(request, response);
+            } else {
+                request.getRequestDispatcher("home.jsp").forward(request, response);
+                
             }
         } else {
             request.getRequestDispatcher("index.jsp").forward(request, response);
