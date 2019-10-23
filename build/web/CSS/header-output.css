@@ -1,0 +1,87 @@
+
+
+body .secondary-color, .secondary-color, .secondary-color:hover,body .fre-tabs>li.active a, body .profile-secure-code-wrap>p a,
+body .fre-view-as-others, body .fre-view-as-others:hover,
+#user_avatar_browse_button,
+.fre-project-upload-file:hover,body .project-detail-attach>li a,
+body .freelance-portfolio-loadmore a, body .fre-skin-color, body .transaction-filter-clear,
+.credit-transaction-wrap .table-col-action a, .credit-transaction-wrap .table-col-action a:focus, .credit-transaction-wrap .table-col-action a:hover,
+body .fre-account-wrap>.dropdown-menu>li a.view-more-notify,
+body .fre-paginations .paginations .page-numbers.current,
+body .fre-notification-list>li .fre-notify-archive>span,
+body .fre-upload-file,.modal .fre-upload-file,
+body .freelance-certificate-action a,
+body .freelance-education-action a{
+    color:  #1fbdbd;
+}
+
+body .primary-color,
+.fre-btn-o.primary-color:hover,
+.primary-color-hover:hover,
+.primary-bg-color:hover,
+.fre-service-pricing:hover .primary-color-hover,
+.fre-service-pricing:hover .service-price h2, .fre-service-pricing:hover .service-price p,
+body .fre-btn-o,
+body .fre-normal-btn-o, .fre-normal-btn:hover,
+body .fre-payment-list>li>.btn:hover{
+   color: #1fbdbd;
+}
+
+.fre-btn-disable:active,
+.fre-btn-disable:focus,
+.fre-btn-disable:hover, .fre-btn:active, .fre-btn:focus, .fre-btn:hover,
+.fre-payment-list>li>.btn:active, .fre-payment-list>li>.btn:focus, .fre-payment-list>li>.btn:hover {
+    background: #FFFFFF;
+   color: #1fbdbd !important;
+}
+
+body .fre-normal-btn, .primary-bg-color, .fre-small-btn, .fre-submit-btn,
+body .fre-payment-list>li>.btn,
+body .fre-btn, body.fre-btn-disable, body .fre-payment-list>li>.btn {
+    background-color: #1fbdbd;
+    border-color: #1fbdbd;
+}
+
+.btn-apply-project, body .fre-btn-o:hover,
+body .fre-radio span:after,body .radio-inline span:after
+{
+    background-color: #1fbdbd;
+}
+
+body .primary-color, body .fre-btn-o,
+.fre-radio input[type=radio]:checked+span:before, .radio-inline input[type=radio]:checked+span:before
+{
+    border-color: #1fbdbd;
+}
+
+body .fre-project-upload-file.primary-color{
+  border-color:#dbdbdb;
+}
+
+.fre-btn-o.primary-color:hover{
+    color: #fff;
+    background-color: #1fbdbd;
+}
+
+.fre-tabs>li.active a:after{
+    background: #1fbdbd;
+}
+
+.primary-color-hover:hover, body .fre-normal-btn-o{
+    border-color: #1fbdbd;
+}
+
+.fre-service-pricing:hover .primary-color-hover{
+  border-color: #1fbdbd;
+
+}
+
+.fre-service-pricing:hover .primary-color-hover:hover,body .fre-normal-btn-o:hover{
+  background-color: #1fbdbd;
+}
+
+.fre-service-pricing:hover:after{
+  background-color: #1fbdbd;
+}
+
+        

@@ -1,0 +1,40 @@
+#overlay {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  display: none;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.8);
+  z-index: 1050;
+  cursor: pointer;
+  
+  
+}
+
+.mydate {
+    padding: 12px 15px;
+    width: 100%;
+    height: 44px;
+    border: 1px solid #dbdbdb;
+    border-radius: 2px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #415161;
+    line-height: normal;
+}
+
+.accept-bid-btn {
+    margin-bottom: 10px;
+    border-color: #1fbdbd;
+    background-color: #1fbdbd;
+    color: #ffffff;
+}
+
+.accept-bid-btn:hover {
+
+    background-color: #ffffff;
+    color: #1fbdbd;
+}
