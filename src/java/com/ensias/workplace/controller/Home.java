@@ -15,6 +15,8 @@ public class Home extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         
         HttpSession session = request.getSession(false);
+
+        // Check if Session is open
         if (session != null) {
             if(session.getAttribute("connected") != null && (Boolean) session.getAttribute("connected")) {
                 request.getRequestDispatcher("home.jsp").forward(request, response);
