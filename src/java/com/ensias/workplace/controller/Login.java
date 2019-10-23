@@ -20,6 +20,7 @@ public class Login extends HttpServlet {
         
         HttpSession session = request.getSession(false);
         
+        // Check if the user is connected.
         if(session.getAttribute("connected") != null && (Boolean) session.getAttribute("connected")) {
             response.sendRedirect("home");
         } else {
